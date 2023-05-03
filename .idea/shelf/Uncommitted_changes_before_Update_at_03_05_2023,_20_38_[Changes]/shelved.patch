@@ -1,0 +1,22 @@
+Index: htmlcss/assets/css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/htmlcss/assets/css/style.css b/assets/css/style.css
+rename from htmlcss/assets/css/style.css
+rename to assets/css/style.css
+--- a/htmlcss/assets/css/style.css	(revision 125c79e2b88a29339945b09041a87cc8366cdb4a)
++++ b/assets/css/style.css	(date 1683117494992)
+@@ -34,7 +34,7 @@
+     height: 100vh;
+ 
+     background:
+-            url("../images/intro.jpg") center no-repeat;
++            url("intro.jpg") center no-repeat;
+             -webkit-background-size: cover;
+             background-size: cover;
+ }
+diff --git a/htmlcss/index.html b/index.html
+rename from htmlcss/index.html
+rename to index.html
